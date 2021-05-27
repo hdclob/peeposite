@@ -1,0 +1,78 @@
+
+section.peeponomics{
+    padding-bottom: 5rem;
+    padding-top: 10rem;
+    background-image: url('../../assets/images/Artboard_2.png');
+}
+
+.peeponomicsTitle{
+    font-size: 2rem;    
+    text-align: center;
+    margin-bottom: 5rem ;
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.singleCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 30px;
+    /* padding: 1.5rem; */
+   width: 100%;
+    margin: 1rem;
+    transition: all .4s ease;
+    background-color: white;
+    overflow: hidden;
+
+}
+
+.singleCard:hover{
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 15%);
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+img.iconImage{
+    width: 6rem;
+    margin: 2rem 0;
+
+}
+
+.cardDetails{
+    background-color: #E8E8E8;
+    width: 100%;
+    height: 100%;
+    padding: 1.5rem;
+}
+
+.cardDetails h5{
+    font-weight: 800;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.cardDetails p{
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+@media (min-width:992px){
+.singleCard {
+    width: 29% !important;
+    /* height: 100%; */
+}
+.peeponomicsTitle{
+    font-size: 4rem;
+}
+}
+
+@media (max-width: 768px) {
+
+    .peeponomicsTitle{
+        font-size: 2.5rem;
+    }
+ }

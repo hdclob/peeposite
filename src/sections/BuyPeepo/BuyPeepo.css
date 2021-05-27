@@ -1,0 +1,96 @@
+
+
+section.buypeepo{
+    background:url('../../assets/images/Artboard_3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.buyPeepoRow{
+    min-height: 30rem;
+    padding: 2rem 0;
+
+}
+
+.buyPeepoRow .panCakeBtn{
+    background-color: white;
+    padding:1rem 3rem;
+    text-decoration: none;
+    color: var(--text-color-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 3rem;
+    transition: all .4s ease;
+}
+.buyPeepoRow .panCakeBtn:hover{
+    background-color: rgba(255, 255, 255,.5);
+}
+
+.buyPeepoRow h1{
+    color: white;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 4rem;
+    text-align: center;
+}
+.buyPeepoRow h3{
+    color: white;
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+
+.mb-3.input-group {
+    margin: 2rem 0;
+}
+
+.mb-3.input-group input::placeholder{
+    font-weight: 800;
+    padding-left: 2rem;
+    font-size: 1.2rem;
+}
+
+
+.mb-3.input-group input{
+    border-radius: 3rem;
+}
+
+.mb-3.input-group button{
+    background-color: #6441a5;
+    border: none;
+    outline: none;
+    color: white;
+    height: 100%;
+    padding: 0 2rem ;
+    border-radius:0  3rem  3rem 0 ;
+    transition: all .4s ease;
+}
+
+.mb-3.input-group button:hover{
+    background-color: rgba(100, 65, 165,.5);
+}
+.mb-3.input-group input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+.fade.toast {
+    background-color: #00e48d;
+    border: none;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .buyPeepoRow h1{
+        font-size: 2.5rem;
+    }
+ }
+ 

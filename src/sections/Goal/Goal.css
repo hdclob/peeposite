@@ -1,0 +1,60 @@
+
+
+section.goal{
+   
+    background:url('../../assets/images/Artboard_6.png');
+    background-repeat: no-repeat;
+
+}
+
+.goalPicture img{
+    width: 30rem;
+}
+
+
+.goal h1{
+    color: white;
+    font-weight: 900;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+.goal p{
+    font-weight: 700;
+    font-size: 1rem;
+    color: var(--text-color);
+    line-height: 25px;
+}
+
+.goalRow{
+    height: 30rem;
+    display: flex;
+    align-items: center;
+}
+
+.col-lg-6.col-md-12{
+    z-index: 100;
+}
+@media (min-width: 320px) {
+    section.goal{
+    background-size: cover;
+    background-position: top;
+    background-position-x:75%;
+    }
+  }
+  
+@media (max-width: 768px) {
+
+    .goalPicture{
+        position: absolute;
+        bottom: 0;
+        z-index: 0;
+    }
+    .goalPicture img{
+        width: 20rem;
+    }
+    .goal h1{
+        font-size: 2.5rem;
+    }
+ }

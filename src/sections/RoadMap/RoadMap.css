@@ -1,0 +1,123 @@
+
+section.roadMap{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background: url('../../assets/images/Artboard_5.png');
+    background-repeat: no-repeat;
+}
+.CardDeckDiv{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.roadMapTitleCard{
+    display: flex;
+    justify-content: flex-end;
+}
+.roadMapTitle{
+    font-size: 4rem;    
+    text-align: center;
+    color: var(--text-color);
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+}
+
+
+.roadMapCard{
+    background-color: white;
+    border: 2px solid rgb(217, 217, 217);
+    border-radius: 30px;
+    padding: 1.5rem;
+    width: 100%;
+    margin: 1rem 0;
+    transition: all .4s ease;
+}
+
+.roadMapCard:hover{
+    box-shadow: 0 10px 30px 0 rgb(0 0 0 / 50%);
+    transform: translateX(-2rem);
+    cursor: pointer;
+}
+
+.roadMapCardDetails h5{
+ font-weight: 800;
+ font-size: 2rem;
+ text-align: center;
+}
+
+.roadMapCardDetails ul>li{
+    font-weight: 500;
+    font-size: 1rem;
+    color: gray;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+
+.Peepo_ConstructionImg img{
+    width: 40rem;
+}
+
+.roadMapDetails{
+    z-index: 100;
+}
+
+
+@media (min-width: 320px) {
+    section.roadMap{
+    background-size: cover;
+    background-position-x:20%;
+    
+    }
+}
+
+@media (min-width: 768px) {
+    .CardDeckDiv{
+            /* display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; */
+    }
+    /* .roadMapCard{
+        width: 45% !important;
+    } */
+}
+@media (min-width: 992px) {
+    .CardDeckDiv{
+            /* display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            flex-wrap: wrap; */
+    }
+    .Peepo_ConstructionImg{
+        position: relative;
+        bottom: -134px;
+        z-index: 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+
+    .roadMapTitle{
+        font-size: 2.5rem;
+    }
+    .Peepo_ConstructionImg img{
+        width: 30rem;
+    }
+ }
+ @media (max-width: 992px) {
+
+    .Peepo_ConstructionImg{
+        position: absolute;
+        bottom: -78px;
+    }
+   
+ }
+ 
+ @media (max-width: 992px) {
+
+    .Peepo_ConstructionImg img{
+        width: 20rem;
+    }
+ }
+ 
